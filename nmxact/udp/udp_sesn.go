@@ -26,12 +26,12 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/omp"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/joefour/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmp"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/omp"
+	"github.com/joefour/mynewt-newtmgr/nmxact/sesn"
 )
 
 type UdpSesn struct {

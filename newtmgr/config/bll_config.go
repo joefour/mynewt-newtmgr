@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 /**
@@ -29,10 +30,10 @@ import (
 
 	"github.com/JuulLabs-OSS/ble"
 
+	"github.com/joefour/mynewt-newtmgr/newtmgr/bll"
+	"github.com/joefour/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/bledefs"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/bll"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
 )
 
 type BllConfig struct {

@@ -25,9 +25,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
+	"github.com/joefour/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmxutil"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
 )
 
 var NewtmgrLogLevel log.Level

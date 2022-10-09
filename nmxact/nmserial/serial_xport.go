@@ -34,8 +34,8 @@ import (
 	"github.com/runtimeco/go-coap"
 	log "github.com/sirupsen/logrus"
 
+	"github.com/joefour/mynewt-newtmgr/nmxact/sesn"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
 )
 
 type XportCfg struct {

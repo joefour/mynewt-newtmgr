@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 /**
@@ -27,7 +28,7 @@ import (
 
 	"github.com/JuulLabs-OSS/ble"
 
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
+	"github.com/joefour/mynewt-newtmgr/nmxact/bledefs"
 )
 
 func UuidFromBllUuid(bllUuid ble.UUID) (bledefs.BleUuid, error) {

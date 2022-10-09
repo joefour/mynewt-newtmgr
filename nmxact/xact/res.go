@@ -22,8 +22,8 @@ package xact
 import (
 	"github.com/runtimeco/go-coap"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/joefour/mynewt-newtmgr/nmxact/sesn"
 )
 
 type ResCmd struct {

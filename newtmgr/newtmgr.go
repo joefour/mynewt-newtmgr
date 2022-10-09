@@ -25,11 +25,11 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/joefour/mynewt-newtmgr/newtmgr/cli"
+	"github.com/joefour/mynewt-newtmgr/newtmgr/config"
+	"github.com/joefour/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmserial"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/cli"
-	"mynewt.apache.org/newtmgr/newtmgr/config"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/nmserial"
 )
 
 func isSerial() bool {

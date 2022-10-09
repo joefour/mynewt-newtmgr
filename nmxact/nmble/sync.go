@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 const syncPollRate = time.Second

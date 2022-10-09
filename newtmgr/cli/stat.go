@@ -25,9 +25,9 @@ import (
 
 	"github.com/spf13/cobra"
 
+	"github.com/joefour/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/xact"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/xact"
 )
 
 func statsListRunCmd(cmd *cobra.Command, args []string) {

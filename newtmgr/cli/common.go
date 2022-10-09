@@ -24,17 +24,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
+	"github.com/joefour/mynewt-newtmgr/newtmgr/bll"
+	"github.com/joefour/mynewt-newtmgr/newtmgr/config"
+	"github.com/joefour/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/joefour/mynewt-newtmgr/nmxact/mtech_lora"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmble"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/joefour/mynewt-newtmgr/nmxact/nmserial"
+	"github.com/joefour/mynewt-newtmgr/nmxact/sesn"
+	"github.com/joefour/mynewt-newtmgr/nmxact/udp"
+	"github.com/joefour/mynewt-newtmgr/nmxact/xport"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/bll"
-	"mynewt.apache.org/newtmgr/newtmgr/config"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/mtech_lora"
-	"mynewt.apache.org/newtmgr/nmxact/nmble"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmserial"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/udp"
-	"mynewt.apache.org/newtmgr/nmxact/xport"
 )
 
 var globalSesn sesn.Sesn
